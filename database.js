@@ -1,9 +1,9 @@
-const livros = [
+const livros = [ //Cria um array de objetos contendo livros, páginas, id e etc...
     {
         id: 1,
         nome: "Digital Minimalize",
         autor: "Cal Newport",
-        categoria: "Produtividade e Estilo de Vida",
+        categoria: "Produtividade",
         paginas: 254,
         recomenda: false,
         leu: false
@@ -28,22 +28,32 @@ const livros = [
     },
     {
         id: 4,
-        nome: "Os segredos da mente milionária",
-        autor: "T. Harv Eker",
-        categoria: "Finanças Pessoais",
-        paginas: 176,
+        nome: "Padrões Javascript",
+        autor: "Stoyan Stefanov",
+        categoria: "Tecnologia",
+        paginas: 240,
         recomenda: true,
-        leu: true
+        leu: false
     },
     {
         id: 5,
-        nome: "Estrutura de Dados com JavaScript",
-        autor: "Loiane Groner",
-        categoria: "Tecnologia",
-        paginas: 408,
-        recomenda: true,
+        nome: "1984",
+        autor: "George Orwell",
+        categoria: "Ficção",
+        paginas: 336,
+        recomenda: false,
         leu: false
+    },
+    {
+        id: 6,
+        nome: "Investidor Inteligente",
+        autor: "Benjamin Graham",
+        categoria: "Finanças",
+        paginas: 672,
+        recomenda: true,
+        leu: true
     }
 ]
 
+//Exporta esse database de livros para o que seja utilizado no app.js
 module.exports = livros
